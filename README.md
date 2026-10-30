@@ -5,6 +5,15 @@ A W&B-style dashboard for comparing ML experiments logged to plain files: one
 config keys, and see each group's mean ± std (or median with min–max / IQR) as
 interactive Plotly charts.
 
+![MLCompare: 36 runs grouped by optimizer and learning rate](docs/screenshot.png)
+
+<details open>
+<summary>Demo: grouping, smoothing, hover, zoom, theme (<a href="docs/demo.mp4">MP4</a>)</summary>
+
+![MLCompare demo](docs/demo.gif)
+
+</details>
+
 ```bash
 uv run mlcompare path/to/runs          # scans recursively, opens http://127.0.0.1:8765
 ```
